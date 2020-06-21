@@ -3,7 +3,7 @@
 @AccessControl.authorizationCheck: #CHECK
 //@VDM.viewType: #BASIC
 //@ObjectModel.representativeKey: 'PurchaseDocument'
-//@ObjectModel.semanticKey: ['PurchaseDocument']
+@ObjectModel.semanticKey: ['PurchaseDocument']
 define view Z_I_PURCHASEDOC_MO
   as select from zpurdocum_mo
   association [0..*] to Z_I_PURCHASEDOC_ITEM_MO    as _PurchaseDocumentItem   on $projection.purchasedocument = _PurchaseDocumentItem.PurchaseDocument

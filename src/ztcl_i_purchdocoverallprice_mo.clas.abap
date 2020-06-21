@@ -1,0 +1,13 @@
+ CLASS ztcl_i_purchdocoverallprice_mo  DEFINITION
+ PUBLIC
+ FINAL
+ CREATE PUBLIC
+ FOR TESTING.
+
+   PUBLIC SECTION.
+   PROTECTED SECTION.
+   PRIVATE SECTION.
+ ENDCLASS.
+
+ CLASS ztcl_i_purchdocoverallprice_mo  IMPLEMENTATION.
+ ENDCLASS.

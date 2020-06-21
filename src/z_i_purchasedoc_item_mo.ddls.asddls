@@ -2,6 +2,9 @@
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
+//@VDM.viewType: #BASIC
+//@ObjectModel.representativeKey: 'PurchaseDocumentItem'
+@ObjectModel.semanticKey: ['PurchaseDocumentItem','PurchaseDocument']
 @EndUserText.label: 'Purchase Document Item'
 
 define view Z_I_PURCHASEDOC_ITEM_MO
