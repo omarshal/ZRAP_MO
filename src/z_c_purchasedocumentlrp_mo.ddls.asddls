@@ -13,7 +13,7 @@ as projection on Z_I_PURDOCUMENT_U_MO {
         @EndUserText.label: 'Approval Required' 
         //@ObjectModel.foreignKey.association: '_IsApprovalRequired' 
         //@Consumption.valueHelpDefinition: [{entity:{name:'I_Indicator' , element: 'IndicatorValue'}}]
-        IsApprovalRequired, //###########################################################################TODO
+        IsApprovalRequired,
         OverallPriceCriticality,
         @EndUserText.label: 'Status'
         //@Consumption.valueHelpDefinition: [{entity:{name:'Z_C_StatusVH' , element: 'Status'}}]
@@ -47,7 +47,7 @@ as projection on Z_I_PURDOCUMENT_U_MO {
         /* Associations */
         //_PurchaseDocumentItem : redirected to composition child Z_C_PurchaseDocumentItemLrp, ###########################################################################TODO
         _Currency,
-        //_IsApprovalRequired,###########################################################################TODO
+        _IsApprovalRequired,
         _Priority,
         _Status,
         _PurchasingOrganization
