@@ -1,0 +1,17 @@
+@EndUserText.label: 'Purchase Document SD Unmanaged'
+define service Z_PurchaseDocument_U_MO {
+  expose Z_I_PURDOCUMENT_U_MO as PurchaseDocument_U;
+  expose Z_I_PURCHASEDOC_ITEM_U_MO as PurchaseDocumentItem_U;
+  expose Z_I_INDICATOR_MO as ApprovalRequired;
+  expose I_Currency as Currency;
+  expose I_UnitOfMeasure as QuantityUnitofMeasure;
+  expose Z_I_VENDORTYPE_MO as VendorType;
+  expose Z_C_STATUS_VH_MO as StatusVH;
+  expose Z_C_VENDORTYPE_VH_MO as VendorTypeVH;
+  expose Z_C_PRIORITY_VH_MO as PriorityVH;
+  expose Z_I_PURCHASEDOCPRIORITY_MO as Priority;
+  expose Z_I_PURCHASEDOCSTATUS_MO as Status;
+  expose Z_I_PURCHDOCOVPRICE_MO as PurchDocOveralPrice;
+  expose Z_I_PURCHASEDOC_MO as PurchaseDocumentBase;
+  expose Z_I_PURCHASEDOC_ITEM_MO as PurchaseDocumentItemBase;
+}
